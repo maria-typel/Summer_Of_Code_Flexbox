@@ -29,32 +29,22 @@ footer {
 	padding: 10px;
 }
 
-nav,
-aside {
+
+nav, aside {
 	background-color: #f8e2ef;
 	flex: 0 0 20vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 5%;
+	font-size: 140%;
+	color: #9b3570;
 }
-nav,
+
 aside a {
 	text-decoration: none;
 	color: #9b3570;
-	font-size: 140%;
-}
-
-nav {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	gap: 5%;
-}
-
-aside {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	gap: 5%;
 }
 
 li {
